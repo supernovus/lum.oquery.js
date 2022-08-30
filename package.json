@@ -1,0 +1,29 @@
+{
+  "name": "@lumjs/oquery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "exports":
+  {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.oquery.js.git"
+  },
+  "dependencies": {
+    "@lumjs/core": "^1.0.0"
+  },
+  "devDependencies":
+  {
+    "@lumjs/tests": "^1.3.0"
+  },
+  "scripts":
+  {
+    "-TODO-1": "Use `lumtest` once its available",
+    "test": "prove -e node --ext js ./test",
+    "build-docs": "jsdoc -c ./jsdoc.json"
+  }
+}
