@@ -1,6 +1,6 @@
 {
   "name": "@lumjs/oquery",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "index.js",
   "exports":
   {
@@ -14,11 +14,11 @@
     "url": "https://github.com/supernovus/lum.oquery.js.git"
   },
   "dependencies": {
-    "@lumjs/core": "^1.11.0"
+    "@lumjs/core": "^1.20.0"
   },
   "devDependencies":
   {
-    "@lumjs/tests": "^1.8.0"
+    "@lumjs/tests": "^1.8.2"
   },
   "scripts":
   {
